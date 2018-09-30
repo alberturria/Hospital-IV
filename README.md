@@ -5,13 +5,13 @@ Para ver la página del repositorio pulsar [aquí](https://alberturria.github.io
 
 # SERVICIO WEB PARA UN CENTRO DE SALUD
 
-##Descripción
+## Descripción
 
 En este repositorio desarrollaremos un servicio que permita gestionar citas en un determinado centro de salud.
 La idea es poder notificar a cada paciente de su cita proporcionándole información de interés sobre la misma.
 
 
-##Herramientas (Provisionales)
+## Herramientas (Provisionales)
 
 El lenguaje utilizado será Node.js.
 Usaremos Heroku como Platform as a Service.
@@ -19,7 +19,7 @@ Utilizaremos una base de datos PostgreSQL.
 El uso de JSON estará presente para la serialización de los datos usados.
 
 
-##Licencia
+## Licencia
 
 GNU GPLv3
 
