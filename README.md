@@ -8,7 +8,9 @@ Para ver la página del repositorio pulsar [aquí](https://alberturria.github.io
 ## Descripción
 
 En este repositorio desarrollaremos un servicio que permita gestionar citas en un determinado centro de salud.
-La idea es poder notificar a cada paciente de su cita proporcionándole información de interés sobre la misma.
+El propósito de este proyecto nace de la idea de facilitar tanto al personal administrativo de un centro de salud,
+como al personal sanitario, como al paciente de la gestión de los diversos procedimientos que se llevan a cabo en el mismo.
+La idea inicial de este proyecto es centrarnos en la automatización de la notificación de citas al paciente, proporcionándole información de interés sobre la misma.
 
 
 ## Herramientas (Provisionales)
