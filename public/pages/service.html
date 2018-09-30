@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Children's Hope</title>
+
+	<!-- ICON -->
+	<link rel="icon" type="image/png" href="../assests/img/icon.png" />
+
+	<!-- load stylesheets -->
+	<link rel="stylesheet" href="../assests/css/openSans.css">  <!-- Google web font "Open Sans" -->
+	<link rel="stylesheet" href="../assests/css/bootstrap.min.css">  <!-- Bootstrap style -->
+	<link rel="stylesheet" href="../assests/css/templatemo-style.css">  <!-- Templatemo style -->
+	<link rel="stylesheet" href="../assests/css/main.css">  <!-- Main style -->
+
+	<!-- load JS files -->
+	<script src="../assests/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+	<script src="../assests/js/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
+	<script src="../assests/js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
+	<script type="text/javascript" src="../assests/js/service.js"></script>
+</head>
+<body>
+	<div class="tm-header">
+		<div class="container-fluid">
+			<div class="tm-header-inner">
+				<a href="../index.html" class="navbar-brand tm-site-name">Children's hope</a>
+				<!-- navbar -->
+				<nav class="navbar tm-main-nav">
+					<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+						&#9776;
+					</button>
+					<div class="collapse navbar-toggleable-sm" id="tmNavbar">
+						<ul class="nav navbar-nav">
+							<li class="nav-item">
+								<a href="../pages/events.html" class="nav-link">Events</a>
+							</li>
+							<li class="nav-item">
+								<a href="../pages/news.html" class="nav-link">News</a>
+							</li>
+							<li class="nav-item active">
+								<a href="../pages/service.html" class="nav-link">Service</a>
+							</li>
+							<li class="nav-item">
+								<a href="../pages/location.html" class="nav-link">Location</a>
+							</li>
+							<li class="nav-item">
+								<a href="../pages/people.html" class="nav-link">People</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<section class="tm-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="tm-margin-b-40 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						Location:
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						<input type="radio" name="location" onclick="loadServices();"> All
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						<input id="milano" type="radio" name="location" onclick="serviceByLocation();"> Milano
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						<input id="bologna" type="radio" name="location" onclick="serviceByLocation();"> Bologna
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						<input id="rome" type="radio" name="location" onclick="serviceByLocation();"> Rome
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						<input id="naples" type="radio" name="location" onclick="serviceByLocation();"> Naples
+					</div>
+
+				</div>
+				<div id="services" class="col-xs-12 col-sm-6 col-md-9 col-lg-9 col-xl-9">
+				</div>	
+			</div>
+		</div>
+	</section>
+	<footer class="tm-footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 tm-copyright-col">
+					<p class="tm-copyright-text">Copyright 2018 Children's Hope</p>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-xs-12" align=right >
+					<a style="margin-right: 5%" href="../pages/contactUs.html">Contact Us</a>
+					<a style="margin-right: 5%" href="../pages/faq.html">FAQ</a>	
+					<a style="margin-right: 5%" href="../pages/aboutUs.html" >Who we are</a>
+					<a href="../pages/helpUs.html" >Help us</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

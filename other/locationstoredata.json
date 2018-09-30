@@ -1,0 +1,26 @@
+[ 
+	{
+		"id": 1,
+		"name": "Milano",
+		"img": "milan.jpg",
+		"description": "In Milan you will find our main center since 2012. It it provided wit all the services that we have. Even not being the biggest one, this center provides a great solution for those who are looking for some help. Find us in Piazza Leonardo Da Vinci."
+	},
+	{
+		"id": 2,
+		"name": "Bologna",
+		"img": "bologna.jpg",
+		"description": "We count with one of our center in this wonderful city. Located in the historic center this small center offers you some services with the best specialist of the sector. Find us in Via Santa Margherita 3."
+	},
+	{
+		"id": 3,
+		"name": "Naples",
+		"img": "naples.jpg",
+		"description": "Our southest center is placed in this great city. Feel the sea in this center, located in the coast of the city is the biggest one of our centers. The capital of Campania awaits you. Find us in Via Angelo di Costanzo 14."
+	},
+	{
+		"id": 4,
+		"name": "Rome",
+		"img": "rome.jpg",
+		"description": "The capital of Italy is one of the locations decided to place one of our four centers. We have a small center placed in the outskirts of the city. It is easy to access with car or with a bus. Find us in Via Capraia 2."
+	}
+]

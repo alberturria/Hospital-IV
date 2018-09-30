@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Children's Hope</title>
+
+		<!-- ICON -->
+	<link rel="icon" type="image/png" href="../assests/img/icon.png" />
+
+	<!-- load stylesheets -->
+	<link rel="stylesheet" href="../assests/css/bootstrap.min.css">  <!-- Bootstrap style -->
+	<link rel="stylesheet" href="../assests/css/openSans.css">  <!-- Google web font "Open Sans" -->
+	<link rel="stylesheet" href="../assests/css/templatemo-style.css">  <!-- Templatemo style -->
+	<link rel="stylesheet" href="../assests/css/main.css">
+
+	<!-- load js -->
+	<script type="text/javascript" src="../assests/js/contactForm.js"></script>
+	<script type="text/javascript" src="../assests/js/googlemap.js" ></script>
+	
+	
+</head>
+<body>
+	<div class="tm-header">
+		<div class="container-fluid">
+			<div class="tm-header-inner">
+				<a href="../index.html" class="navbar-brand tm-site-name">Children's hope</a>
+				<!-- navbar -->
+				<nav class="navbar tm-main-nav">
+					<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+						&#9776;
+					</button>
+					<div class="collapse navbar-toggleable-sm" id="tmNavbar">
+						<ul class="nav navbar-nav">
+							<li class="nav-item">
+								<a href="../pages/events.html" class="nav-link">Events</a>
+							</li>
+							<li class="nav-item">
+								<a href="../pages/news.html" class="nav-link">News</a>
+							</li>
+							<li class="nav-item">
+								<a href="../pages/service.html" class="nav-link">Service</a>
+							</li>
+							<li class="nav-item">
+								<a href="../pages/location.html" class="nav-link">Location</a>
+							</li>
+							<li class="nav-item">
+								<a href="../pages/people.html" class="nav-link">People</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<h1 id="mapTitle">Here we are</h1>
+	<div id="map" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIBFDCQI2gka1D1GaAuBxvqg3nrA8JPro&callback=initMap">
+		</script>		
+	</div>
+	<div style="margin-bottom: 20%">
+		<section id="contact container">
+			<div class="section-content">
+				<h1 class="section-header">Send us a message</h1>
+			</div>
+			<div class="container">
+				<form id="contactForm">
+					<div class="col-md-6 form-line">
+						<div class="form-group">
+							<label for="nameContact">Your name</label>
+							<input type="text" class="form-control" id="nameContact" placeholder=" Enter Name">
+						</div>
+						<div class="form-group">
+							<label for="emailContact">Email Address</label>
+							<input type="email" class="form-control" id="emailContact" placeholder=" Enter Email id">
+						</div>	
+						<div class="form-group">
+							<label for="telContact">Mobile Number</label>
+							<input type="tel" class="form-control" id="telContact" placeholder=" Enter mobile number">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for ="descriptionContact"> Message</label>
+							<textarea  class="form-control" id="descriptionContact" placeholder="Enter Your Message"></textarea>
+						</div>
+						<div>
+							<button type="button" class="btn btn-default submit" onclick="sendMessage();"> Send Message</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+	<footer class="tm-footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 tm-copyright-col">
+					<p class="tm-copyright-text">Copyright 2018 Children's Hope</p>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-xs-12" align=right >
+					<a style="margin-right: 5%" href="../pages/contactUs.html">Contact Us</a>
+					<a style="margin-right: 5%" href="../pages/faq.html">FAQ</a>	
+					<a style="margin-right: 5%" href="../pages/aboutUs.html" >Who we are</a>
+					<a href="../pages/helpUs.html" >Help us</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- load JS files -->
+	<script src="../assests/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+	<script src="../assests/js/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
+	<script src="../assests/js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
+</body>
+</html>

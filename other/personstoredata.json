@@ -1,0 +1,130 @@
+[ 
+	{
+		"id": 1,
+		"name": "Maurizia Jhonson",
+		"email": "MJhonson@csHope.com",
+        "description": "I studied Bussines & Managment in 'Università degli studi di Milano'. Now I want to help everyone",
+        "role":"Assistant",
+        "image":"mauriziaJhonson.jpeg"
+	},
+	{
+		"id": 2,
+		"name": "Pietro Baldi",
+		"email": "pBaldi@csHope.com",
+        "description": "I love to guide young people with different needs.",
+        "role":"Assistant",
+        "image":"pietroBaldi.jpeg"
+	},
+	{
+		"id": 3,
+		"name": "Lamberta Pérez",
+		"email": "lPerez@csHope.com",
+        "description": "I wanted a change in my life,  I am happier helping other people.",
+        "role":"Lawyer",
+        "image":"lambertaPerez.jpeg"
+	},
+	{
+		"id": 4,
+		"name": "Nadia Ferrari",
+		"email": "nFerrari@csHope.com",
+        "description": "I studied medicine in 'Universidad de Granada' in my Erasmus internship.",
+        "role":"Psychiatrist",
+        "image":"nadiaFerrari.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Yuri Esposito",
+		"email": "yEsposito@hotmail.com",
+        "description": "My dream has always been to defend the weak.",
+        "role":"Security",
+        "image":"yuriEsposito.jpeg"
+	},
+	{
+		"id": 6,
+		"name": "Isabella Ricci",
+		"email": "iRicci@csHope.com",
+        "description": "I want everyone to have access to education.",
+        "role":"Teacher",
+        "image":"isabella.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Linda Romano",
+		"email": "lRomano@csHope.com",
+        "description": "I want to help the disadvantaged.",
+        "role":"Waitress",
+        "image":"lindaRomano.png"
+	},
+	{
+		"id": 8,
+		"name": "Antonella Greco",
+		"email": "aGreco@csHope.com",
+        "description": "My dream is to help everyone.",
+        "role":"Physiotherapist",
+        "image":"antonella.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Andrea Romanini",
+		"email": "aRomanini@csHope.com",
+        "description": "Anything to see a smile.",
+        "role":"Nurse",
+        "image":"andreaRomanini.jpg"
+	},
+	{
+		"id": 10,
+		"name": "Lucca Colombetti",
+		"email": "lColombetti@csHope.com",
+        "description": "My passion is the paperwork and help people",
+        "role":"Administrative",
+        "image":"luccaColombetti.jpg"
+	},
+	{
+		"id": 11,
+		"name": "Giovanni Grieco",
+		"email": "gGrieco@csHope.com",
+        "description": "The laugh is the best medicine.",
+        "role":"Carer",
+        "image":"giovanniGrieco.jpeg"
+	},
+	{
+		"id": 12,
+		"name": "Angelo Marinazzo",
+		"email": "aFerrari@csHope.com",
+        "description": "I want everyone to have the same opportunities.",
+        "role":"Waiter",
+        "image":"angelo.jpg"
+	},
+	{
+		"id": 13,
+		"name": "Francesca Roman",
+		"email": "fRomanatti@csHope.com",
+        "description": "Healing the world between everyone",
+        "role":"Doctor",
+        "image":"fRoman.jpeg"
+	},
+	{
+		"id": 14,
+		"name": "Benito Camela",
+		"email": "bCamela@csHope.com",
+        "description": "Always defending the weak.",
+        "role":"Security",
+        "image":"benitoCamela.jpg"
+	},
+	{
+		"id": 15,
+		"name": "Lia Grechi",
+		"email": "lGrechi@csHope.com",
+        "description": "My dream is to teach everyone who needs it.",
+        "role":"Teacher",
+        "image":"liaGrechi.png"
+	},
+	{
+		"id": 16,
+		"name": "Davide Colombo",
+		"email": "dColombo@csHope.com",
+        "description": "Cooking for future.",
+        "role":"Chef",
+        "image":"davideColombo.jpeg"
+	}
+]

@@ -1,0 +1,23 @@
+{
+  "name": "polimihyp2018team10623424",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git clone https://polimi-hyp-2018-10623424@bitbucket.org/polimihyp2018team10623424/polimi-hyp-2018-project.git",
+  "author": "Francisco Coca <francisco.coca@mail.polimi.it>, Alberto Herrera <alberto1.herrera@polimi.it>, Joaquín León <joaquin.leon@mail.polimi.it>",
+  "engines": {
+    "node": "7.5.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "knex": "0.13.0",
+    "lodash": "4.17.4",
+    "pg": "6.2.3",
+    "sqlite3": "3.1.8"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "sc2": "node ./index2.js"
+  }
+}

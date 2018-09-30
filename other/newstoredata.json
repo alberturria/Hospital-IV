@@ -1,0 +1,72 @@
+[ 
+	{
+		"id": 1,
+        "tittle": "Milan new center",
+        "body":"The work continues to build the new center of Children's Hope. 'The building is still far to be done, but we think it will be finished to the end of the year' says the chief of the project",
+		"img": "milan.jpg",
+		"date": "2018-01-22"
+	},
+	{
+		"id": 2,
+        "tittle": "Napoles new cafe",
+        "body":"Opening of the new cafe in Naples for children of all ages. Children have a special discount the first week",
+		"img": "cafe_new.jpg",
+		"date": "2017-08-22"
+	},
+	{
+		"id": 3,
+        "tittle": "New playrooms in Rome and Bologna",
+        "body":"From next week, children will be able to enjoy our new playrooms in Rome and Bologna free of charge.",
+		"img": "playroom_new.jpg",
+        "date": "2017-06-10"
+	},
+	{
+		"id": 4,
+        "tittle": "Parking reform",
+        "body":"After a year today, the new opening of the renovated car park is made in our center in Naples so that parents have easier access to our facilities.",
+		"img": "parking_new.jpg",
+        "date": "2018-03-13"	
+    },
+    {
+		"id": 5,
+        "tittle": "Parking reform",
+        "body":"After a year today, the new opening of the renovated car park is made in our center in Naples so that parents have easier access to our facilities. Next car park will be open in Rome",
+		"img": "musicaa_new.jpg",
+        "date": "2017-07-12"	
+    },
+ 	{
+		"id": 6,
+        "tittle": "Excursion to Venice",
+        "body":"The next month a trip to Venice is made from all our centers, the inscriptions have already been opened. The cost is 10 euro",
+		"img": "Venecia_new.jpg",
+        "date": "2017-05-08"	
+    },
+   	{
+		"id": 7,
+        "tittle": "Successful excursion",
+        "body":"Last month's trip to Parma was a success, more trips are expected in the future.",
+		"img": "parma_new.jpg",
+        "date": "2017-10-28"	
+    },
+    {
+		"id": 8,
+        "tittle": "New menu",
+        "body":"Two new menus are already available at our centers in Milan and Rome",
+		"img": "menu_new.jpg",
+        "date": "2017-11-19"	
+    },
+   {
+		"id": 9,
+        "tittle": "New professionals in our centers",
+        "body":"From the next week we will have three new professionals in our rehabilitation centers in Milan to offer a better service.",
+		"img": "profesionals_new.jpg",
+        "date": "2018-03-01"
+    },
+    {
+		"id": 10,
+        "tittle": "Scholarships",
+        "body":"Now we have in our study centers new scholarships so that children can continue studying.",
+		"img": "becas_new.jpg",
+        "date": "2017-09-10"
+	}
+]
