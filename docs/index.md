@@ -15,10 +15,11 @@ La idea inicial de este proyecto es centrarnos en la automatización de la notif
 
 ## Herramientas (Provisionales)
 
-El lenguaje utilizado será Node.js.
-Usaremos Heroku como Platform as a Service.
-Utilizaremos una base de datos PostgreSQL.
-El uso de JSON estará presente para la serialización de los datos usados.
+
+- El lenguaje utilizado será Node.js, puesto que estoy familiarizado con él.
+- El framework a usar será Total.js, ya que nos ofrece diversas funcionalidades como soporte para API restfull, websockets,... Además es idóneo debido al lenguaje utilizado.
+- El entorno se virtualizará gracias al gestor de módulos para Node.js, NPM.
+- La base de datos será una NoSQL debido a la integración del framework con la misma.
 
 
 ## Licencia
